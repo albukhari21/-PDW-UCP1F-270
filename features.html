@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fitur - LearnSpark</title>
+  <style>
+    body { font-family: sans-serif; background-color: #f0f4f8; margin: 0; }
+    .nav-internal { background-color: #0056b3; padding: 15px; text-align: center; }
+    .nav-internal a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    
+    .gallery { display: flex; justify-content: center; gap: 20px; padding: 30px; }
+    .card { background: white; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .card img { width: 150px; height: 150px; object-fit: cover; border-radius: 4px; }
+    
+    .video-section { text-align: center; margin: 20px 0 50px 0; }
+  </style>
+</head>
+<body>
+  <div class="nav-internal">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="features.html">Fitur</a>
+    <a href="contact.html">Kontak</a>
+  </div>
+
+  <h1 style="text-align: center; margin-top: 30px;">Galeri Fitur Utama</h1>
+  
+  <div class="gallery">
+    <div class="card">
+      <img src="modul.png" alt="Modul" />
+      <p>Modul Terstruktur</p>
+    </div>
+    <div class="card">
+      <img src="quiz.png" alt="Kuis" />
+      <p>Kuis Interaktif</p>
+    </div>
+    <div class="card">
+      <img src="certified.png" alt="Sertifikat" />
+      <p>Sertifikat Kelulusan</p>
+    </div>
+  </div>
+
+  <div class="video-section">
+    <h2>Video Player</h2>
+    <video width="500" controls>
+      <source src="video.mp4" type="video/mp4">
+      Maaf, browser Anda tidak mendukung pemutar video ini.
+    </video>
+  </div>
+</body>
+</html>
